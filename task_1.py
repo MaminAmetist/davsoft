@@ -5,7 +5,7 @@
 
 from random import randint
 
-lst = [randint(1, 1000) for i in range(0, 100)]
+lst = [randint(1, 1000) for _ in range(0, 100)]
 max_elem, min_elem = max(lst), min(lst)
 index_max_elem = lst.index(max_elem)
 index_min_elem = lst.index(min_elem)
